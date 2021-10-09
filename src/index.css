@@ -1,0 +1,48 @@
+body {
+  margin: 0;
+  font-family: calibri;
+  font-size: 16px;
+}
+
+.App {
+  text-align: center;
+}
+
+.button {
+  padding: 10px;
+  background-color: rgb(49, 120, 228);
+  border: 0;
+  margin: 6px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.button:hover {
+  background: #2a66c2;
+  cursor: pointer;
+}
+
+.form-wrapper input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 13px;
+}
+
+.form-wrapper {
+  max-width: 400px;
+  margin: 0;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.error-message {
+  padding: 12px;
+  color: red;
+  text-align: left;
+}
+
+.success-message {
+  margin-bottom: 39px;
+  background: #00dd5054;
+  padding: 12px;
+}
